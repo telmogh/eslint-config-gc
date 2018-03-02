@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-gerocampo",
+  "version": "1.0.7",
+  "description": "GeroCampo's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telmogh/eslint-config-gerocampo"
+  },
+  "author": "GeroCampo",
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-react-app": "^3.0.3",
+    "babel-tape-runner": "^2.0.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.4.0",
+    "in-publish": "^2.0.0",
+    "react": ">= 0.13.0",
+    "safe-publish-latest": "^1.1.1",
+    "tape": "^4.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
